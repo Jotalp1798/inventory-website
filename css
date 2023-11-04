@@ -1,0 +1,51 @@
+/* Establece la fuente para todo el cuerpo de la página */
+body {
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+/* Estiliza el encabezado de la página */
+header {
+    background-color: #0074E4; /* Azul principal */
+    color: #FFFFFF; /* Texto blanco */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 32px;
+}
+
+/* Estiliza la lista de autos */
+#lista-autos {
+    margin: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background-color: #E6F0FF; /* Azul claro */
+    border: 1px solid #0074E4; /* Borde del mismo color que el encabezado */
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+li h3 {
+    font-size: 24px;
+    margin: 0;
+}
+
+li p {
+    margin: 5px 0;
+}
+
+/* Estiliza el pie de página */
+footer {
+    background-color: #0074E4; /* Azul principal */
+    color: #FFFFFF; /* Texto blanco */
+    text-align: center;
+    padding: 10px;
+}
